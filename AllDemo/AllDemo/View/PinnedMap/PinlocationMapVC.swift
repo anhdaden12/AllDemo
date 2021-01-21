@@ -14,7 +14,11 @@ class PinlocationMapVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        mapView.mapType = .mutedStandard
+        if #available(iOS 11.0, *) {
+            mapView.mapType = .mutedStandard
+        } else {
+            // Fallback on earlier versions
+        }
         mapView.delegate = self
         let center1 = CLLocationCoordinate2D(latitude: 20.9773, longitude: 105.822)
         let center4 = CLLocationCoordinate2D(latitude: 21.007, longitude: 105.83)
