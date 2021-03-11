@@ -53,41 +53,46 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             cell.textLabel?.text = "Search Location on Map"
         case .SelectLocationMap:
             cell.textLabel?.text = "Click to pin location map"
+        case .WebViewDemo:
+            cell.textLabel?.text = "Web View demo"
+        case .ActivityIndicatorVC:
+            cell.textLabel?.text = "Activityindicator View"
+        case .TextToSpeech:
+            cell.textLabel?.text = "text to speech"
         }
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let type: ControllerType = ControllerType.allCases[indexPath.row]
+        var vc = UIViewController()
         switch type {
         case .CalculateLabelSize:
-            let vc = CaculateLabelWidth()
-            self.navigationController?.pushViewController(vc, animated: true)
+            vc = CaculateLabelWidth()
         case .PagerView:
-            let vc = ContentVC()
-            self.navigationController?.pushViewController(vc, animated: true)
+            vc = ContentVC()
         case .TabbarController:
-            let vc = TabbarContainerVC()
-            self.navigationController?.pushViewController(vc, animated: true)
+            vc = TabbarContainerVC()
         case .Gesture:
-            let vc = GestureContainer()
-            self.navigationController?.pushViewController(vc, animated: true)
+            vc = GestureContainer()
         case .DebuggingLayout:
-            let vc = BuggingLayoutVC()
-            self.navigationController?.pushViewController(vc, animated: true)
+            vc = BuggingLayoutVC()
         case .DemoAlamofire:
-            let vc = AlamofireVC()
-            self.navigationController?.pushViewController(vc, animated: true)
+            vc = AlamofireVC()
         case .PinnedMap:
-            let vc = PinlocationMapVC()
-            self.navigationController?.pushViewController(vc, animated: true)
+            vc = PinlocationMapVC()
         case .SearchLocationMap:
-            let vc = SearchLocationVC()
-            self.navigationController?.pushViewController(vc, animated: true)
+            vc = SearchLocationVC()
         case .SelectLocationMap:
-            let vc = SelectlocationVC()
-            self.navigationController?.pushViewController(vc, animated: true)
+            vc = SelectlocationVC()
+        case .WebViewDemo:
+            vc = WebViewDemoVC()
+        case .ActivityIndicatorVC:
+            vc = ActivityIndicatorVC()
+        case .TextToSpeech:
+            vc = TextTospeechVC()
         }
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 

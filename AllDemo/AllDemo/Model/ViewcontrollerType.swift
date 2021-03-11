@@ -19,4 +19,7 @@ enum ControllerType: CaseIterable {
     case PinnedMap
     case SearchLocationMap
     case SelectLocationMap
+    case WebViewDemo
+    case ActivityIndicatorVC
+    case TextToSpeech
 }

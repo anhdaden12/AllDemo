@@ -7,4 +7,7 @@ target 'AllDemo' do
 
   # Pods for AllDemo
 	pod 'Alamofire', '~> 5.2'
+#  pod 'Firebase/Analytics'
+#  pod 'Firebase/Auth'
+#  pod 'Firebase/Firestore'
 end

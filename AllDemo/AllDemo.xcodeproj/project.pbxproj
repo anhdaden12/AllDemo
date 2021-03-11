@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7600E63125C25FDA00E7AD0A /* LoginGitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7600E62F25C25FDA00E7AD0A /* LoginGitVC.swift */; };
+		7600E63225C25FDA00E7AD0A /* LoginGitVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7600E63025C25FDA00E7AD0A /* LoginGitVC.xib */; };
 		7659540B25875D600045047F /* profileTabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7659540925875D600045047F /* profileTabbarVC.swift */; };
 		7659540C25875D600045047F /* profileTabbarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7659540A25875D600045047F /* profileTabbarVC.xib */; };
 		7659541025875D7B0045047F /* MarketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7659540E25875D7B0045047F /* MarketVC.swift */; };
@@ -15,6 +17,9 @@
 		7659541625875DA00045047F /* BitCoinVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7659541425875DA00045047F /* BitCoinVC.xib */; };
 		76595426258760250045047F /* TabbarContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76595424258760250045047F /* TabbarContainerVC.swift */; };
 		76595427258760250045047F /* TabbarContainerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76595425258760250045047F /* TabbarContainerVC.xib */; };
+		765CF25425BE8600003C1CE0 /* WebViewDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765CF25225BE8600003C1CE0 /* WebViewDemoVC.swift */; };
+		765CF25525BE8600003C1CE0 /* WebViewDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 765CF25325BE8600003C1CE0 /* WebViewDemoVC.xib */; };
+		765CF26625BEBCE6003C1CE0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 765CF26525BEBCE6003C1CE0 /* GoogleService-Info.plist */; };
 		765E8F312599685E0058E56F /* BuggingLayoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765E8F2F2599685E0058E56F /* BuggingLayoutVC.swift */; };
 		765E8F322599685E0058E56F /* BuggingLayoutVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 765E8F302599685E0058E56F /* BuggingLayoutVC.xib */; };
 		765E8F3B2599897C0058E56F /* AlamofireVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765E8F392599897B0058E56F /* AlamofireVC.swift */; };
@@ -106,6 +111,10 @@
 		7666830325875BD800638730 /* HomeTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7666830125875BD800638730 /* HomeTabbar.swift */; };
 		7666830425875BD800638730 /* HomeTabbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7666830225875BD800638730 /* HomeTabbar.xib */; };
 		76668CC6257F10C200EED7E4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76668CC5257F10C200EED7E4 /* Constant.swift */; };
+		7669F25525BFACCE0027583E /* ActivityIndicatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7669F25325BFACCE0027583E /* ActivityIndicatorVC.swift */; };
+		7669F25625BFACCE0027583E /* ActivityIndicatorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7669F25425BFACCE0027583E /* ActivityIndicatorVC.xib */; };
+		76732BD125BFD4F700B9A0C4 /* TextTospeechVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76732BCF25BFD4F700B9A0C4 /* TextTospeechVC.swift */; };
+		76732BD225BFD4F700B9A0C4 /* TextTospeechVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76732BD025BFD4F700B9A0C4 /* TextTospeechVC.xib */; };
 		767BDDA325A947DC0030E5D8 /* SearchLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767BDDA125A947DC0030E5D8 /* SearchLocationVC.swift */; };
 		767BDDA425A947DC0030E5D8 /* SearchLocationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 767BDDA225A947DC0030E5D8 /* SearchLocationVC.xib */; };
 		768FE00725B90FA000E5358B /* SelectlocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768FE00525B90FA000E5358B /* SelectlocationVC.swift */; };
@@ -119,6 +128,8 @@
 
 /* Begin PBXFileReference section */
 		0B4B046957F99B83774500CC /* Pods_AllDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7600E62F25C25FDA00E7AD0A /* LoginGitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginGitVC.swift; sourceTree = "<group>"; };
+		7600E63025C25FDA00E7AD0A /* LoginGitVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginGitVC.xib; sourceTree = "<group>"; };
 		7659540925875D600045047F /* profileTabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileTabbarVC.swift; sourceTree = "<group>"; };
 		7659540A25875D600045047F /* profileTabbarVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = profileTabbarVC.xib; sourceTree = "<group>"; };
 		7659540E25875D7B0045047F /* MarketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketVC.swift; sourceTree = "<group>"; };
@@ -127,6 +138,9 @@
 		7659541425875DA00045047F /* BitCoinVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BitCoinVC.xib; sourceTree = "<group>"; };
 		76595424258760250045047F /* TabbarContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarContainerVC.swift; sourceTree = "<group>"; };
 		76595425258760250045047F /* TabbarContainerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabbarContainerVC.xib; sourceTree = "<group>"; };
+		765CF25225BE8600003C1CE0 /* WebViewDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewDemoVC.swift; sourceTree = "<group>"; };
+		765CF25325BE8600003C1CE0 /* WebViewDemoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewDemoVC.xib; sourceTree = "<group>"; };
+		765CF26525BEBCE6003C1CE0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		765E8F2F2599685E0058E56F /* BuggingLayoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuggingLayoutVC.swift; sourceTree = "<group>"; };
 		765E8F302599685E0058E56F /* BuggingLayoutVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuggingLayoutVC.xib; sourceTree = "<group>"; };
 		765E8F392599897B0058E56F /* AlamofireVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireVC.swift; sourceTree = "<group>"; };
@@ -220,6 +234,10 @@
 		7666830125875BD800638730 /* HomeTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabbar.swift; sourceTree = "<group>"; };
 		7666830225875BD800638730 /* HomeTabbar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTabbar.xib; sourceTree = "<group>"; };
 		76668CC5257F10C200EED7E4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7669F25325BFACCE0027583E /* ActivityIndicatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorVC.swift; sourceTree = "<group>"; };
+		7669F25425BFACCE0027583E /* ActivityIndicatorVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityIndicatorVC.xib; sourceTree = "<group>"; };
+		76732BCF25BFD4F700B9A0C4 /* TextTospeechVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTospeechVC.swift; sourceTree = "<group>"; };
+		76732BD025BFD4F700B9A0C4 /* TextTospeechVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextTospeechVC.xib; sourceTree = "<group>"; };
 		767BDDA125A947DC0030E5D8 /* SearchLocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocationVC.swift; sourceTree = "<group>"; };
 		767BDDA225A947DC0030E5D8 /* SearchLocationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchLocationVC.xib; sourceTree = "<group>"; };
 		768FE00525B90FA000E5358B /* SelectlocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectlocationVC.swift; sourceTree = "<group>"; };
@@ -259,6 +277,24 @@
 				F3C454FE123B461E174EB7CA /* Pods-AllDemo.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		7600E62D25C25FB800E7AD0A /* Github_oauth2 */ = {
+			isa = PBXGroup;
+			children = (
+				7600E62F25C25FDA00E7AD0A /* LoginGitVC.swift */,
+				7600E63025C25FDA00E7AD0A /* LoginGitVC.xib */,
+			);
+			path = Github_oauth2;
+			sourceTree = "<group>";
+		};
+		765CF25125BE85E7003C1CE0 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				765CF25225BE8600003C1CE0 /* WebViewDemoVC.swift */,
+				765CF25325BE8600003C1CE0 /* WebViewDemoVC.xib */,
+			);
+			path = WebView;
 			sourceTree = "<group>";
 		};
 		765E8F2E259968380058E56F /* DebuggingLayout */ = {
@@ -310,6 +346,7 @@
 				76649850257DEC3700DD0DD4 /* Main.storyboard */,
 				76649853257DEC3D00DD0DD4 /* Assets.xcassets */,
 				76649855257DEC3D00DD0DD4 /* LaunchScreen.storyboard */,
+				765CF26525BEBCE6003C1CE0 /* GoogleService-Info.plist */,
 				76649858257DEC3D00DD0DD4 /* Info.plist */,
 			);
 			path = AllDemo;
@@ -318,6 +355,10 @@
 		7664985F257DEC6300DD0DD4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7600E62D25C25FB800E7AD0A /* Github_oauth2 */,
+				76732BCE25BFD4DC00B9A0C4 /* TextTospeech */,
+				7669F25225BFACAA0027583E /* ActivityIndicatorView */,
+				765CF25125BE85E7003C1CE0 /* WebView */,
 				768FE00425B90F6200E5358B /* SelectLocation */,
 				767BDDA025A947AA0030E5D8 /* SearchLocation */,
 				7664B72425A6C97400298F34 /* PinnedMap */,
@@ -557,6 +598,15 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		7669F25225BFACAA0027583E /* ActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				7669F25325BFACCE0027583E /* ActivityIndicatorVC.swift */,
+				7669F25425BFACCE0027583E /* ActivityIndicatorVC.xib */,
+			);
+			path = ActivityIndicatorView;
+			sourceTree = "<group>";
+		};
 		766EBC6F258850A10016C8F7 /* Gesture */ = {
 			isa = PBXGroup;
 			children = (
@@ -565,6 +615,15 @@
 				76B9ED9C258854F70008B514 /* GestureContainer.xib */,
 			);
 			path = Gesture;
+			sourceTree = "<group>";
+		};
+		76732BCE25BFD4DC00B9A0C4 /* TextTospeech */ = {
+			isa = PBXGroup;
+			children = (
+				76732BCF25BFD4F700B9A0C4 /* TextTospeechVC.swift */,
+				76732BD025BFD4F700B9A0C4 /* TextTospeechVC.xib */,
+			);
+			path = TextTospeech;
 			sourceTree = "<group>";
 		};
 		767BDDA025A947AA0030E5D8 /* SearchLocation */ = {
@@ -605,7 +664,7 @@
 				76649843257DEC3700DD0DD4 /* Sources */,
 				76649844257DEC3700DD0DD4 /* Frameworks */,
 				76649845257DEC3700DD0DD4 /* Resources */,
-				DC7C172A208CE1A401906D51 /* [CP] Embed Pods Frameworks */,
+				F45F45BF9BEF7EA9F0655D6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -655,12 +714,16 @@
 			files = (
 				7659541125875D7B0045047F /* MarketVC.xib in Resources */,
 				768FE00825B90FA000E5358B /* SelectlocationVC.xib in Resources */,
+				76732BD225BFD4F700B9A0C4 /* TextTospeechVC.xib in Resources */,
 				76649857257DEC3D00DD0DD4 /* LaunchScreen.storyboard in Resources */,
 				766498F6257E213400DD0DD4 /* ViewController1.xib in Resources */,
 				7666830425875BD800638730 /* HomeTabbar.xib in Resources */,
 				7664986A257DFFC500DD0DD4 /* CaculateLabelWidth.xib in Resources */,
 				766498FC257E214100DD0DD4 /* ViewController2.xib in Resources */,
+				7600E63225C25FDA00E7AD0A /* LoginGitVC.xib in Resources */,
+				765CF26625BEBCE6003C1CE0 /* GoogleService-Info.plist in Resources */,
 				76649854257DEC3D00DD0DD4 /* Assets.xcassets in Resources */,
+				7669F25625BFACCE0027583E /* ActivityIndicatorVC.xib in Resources */,
 				76B9ED9E258854F70008B514 /* GestureContainer.xib in Resources */,
 				7664B72825A6CA4900298F34 /* PinlocationMapVC.xib in Resources */,
 				765E8F322599685E0058E56F /* BuggingLayoutVC.xib in Resources */,
@@ -670,6 +733,7 @@
 				765E8F3C2599897C0058E56F /* AlamofireVC.xib in Resources */,
 				76649852257DEC3700DD0DD4 /* Main.storyboard in Resources */,
 				767BDDA425A947DC0030E5D8 /* SearchLocationVC.xib in Resources */,
+				765CF25525BE8600003C1CE0 /* WebViewDemoVC.xib in Resources */,
 				76595427258760250045047F /* TabbarContainerVC.xib in Resources */,
 				7659541625875DA00045047F /* BitCoinVC.xib in Resources */,
 				7659540C25875D600045047F /* profileTabbarVC.xib in Resources */,
@@ -681,23 +745,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		DC7C172A208CE1A401906D51 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AllDemo/Pods-AllDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AllDemo/Pods-AllDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AllDemo/Pods-AllDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F002BB0696E2DB0A31949349 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -720,6 +767,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F45F45BF9BEF7EA9F0655D6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllDemo/Pods-AllDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllDemo/Pods-AllDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AllDemo/Pods-AllDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -727,6 +791,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76732BD125BFD4F700B9A0C4 /* TextTospeechVC.swift in Sources */,
 				766498C7257E20F000DD0DD4 /* PageViewControllerDelegate.swift in Sources */,
 				766498B6257E20F000DD0DD4 /* PagingItems.swift in Sources */,
 				766498BF257E20F000DD0DD4 /* Tween.swift in Sources */,
@@ -773,8 +838,10 @@
 				766498CA257E20F000DD0DD4 /* PagingLayout.swift in Sources */,
 				766498E1257E20F000DD0DD4 /* PageViewDirection.swift in Sources */,
 				76668CC6257F10C200EED7E4 /* Constant.swift in Sources */,
+				7669F25525BFACCE0027583E /* ActivityIndicatorVC.swift in Sources */,
 				76B9ED9D258854F70008B514 /* GestureContainer.swift in Sources */,
 				766498C9257E20F000DD0DD4 /* PagingMenuDelegate.swift in Sources */,
+				7600E63125C25FDA00E7AD0A /* LoginGitVC.swift in Sources */,
 				766498E4257E20F000DD0DD4 /* PagingSelectedScrollPosition.swift in Sources */,
 				766498E9257E20F000DD0DD4 /* PagingContentInteraction.swift in Sources */,
 				766498D1257E20F000DD0DD4 /* PagingIndicatorLayoutAttributes.swift in Sources */,
@@ -796,6 +863,7 @@
 				766498BD257E20F000DD0DD4 /* PagingMenuDataSource.swift in Sources */,
 				766498DC257E20F000DD0DD4 /* PagingBorderLayoutAttributes.swift in Sources */,
 				766498D4257E20F000DD0DD4 /* PagingStaticDataSource.swift in Sources */,
+				765CF25425BE8600003C1CE0 /* WebViewDemoVC.swift in Sources */,
 				766498F5257E213400DD0DD4 /* ViewController1.swift in Sources */,
 				766498DD257E20F000DD0DD4 /* PagingMenuView.swift in Sources */,
 				766498CB257E20F000DD0DD4 /* PagingViewController.swift in Sources */,

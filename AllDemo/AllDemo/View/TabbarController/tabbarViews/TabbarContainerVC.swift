@@ -18,6 +18,18 @@ class TabbarContainerVC: UITabBarController {
         setupTabbar()
     }
     
+    override func viewWillLayoutSubviews() {
+        self.tabBar.layer.masksToBounds = true
+        self.tabBar.isTranslucent = true
+        self.tabBar.barStyle = .default
+        self.tabBar.layer.cornerRadius = 20
+        if #available(iOS 11.0, *) {
+            self.tabBar.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+        } else {
+            // Fallback on earlier versions
+        }
+    }
+    
     func setupTabbar() {
         
         self.tabBar.tintColor = UIColor.red
